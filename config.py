@@ -22,8 +22,8 @@ API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5019668523').split()]
+PICS = (environ.get('PICS', 'https://graph.org/file/acda266e9bb434aa69e59.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5019668523 6302921275').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "STARKFILESTORE_BOT") # without @
 PORT = environ.get("PORT", "8080")
 
